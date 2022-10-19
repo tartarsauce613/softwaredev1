@@ -51,7 +51,7 @@ public class wordcounter {
 		public static void main(String[] args) {
 			Map<String, Integer> poem = new HashMap<String, Integer>();
 			try {
-				countwords("TheRaven.html", poem);
+				countwords("testtext.txt", poem);
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			}
