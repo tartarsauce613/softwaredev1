@@ -13,7 +13,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-public class wordcountergui {
+public class wordcountergui { /** creates gui for word counter app */
 	private static void constructGUI() {
 		JFrame.setDefaultLookAndFeelDecorated(true);
 		myFrame frame = new myFrame();
@@ -32,7 +32,7 @@ public class wordcountergui {
 	}
 }
 
-class myFrame extends JFrame {
+class myFrame extends JFrame { /** creates gui design for word counter app */
 	public JTextArea fileName;
 	public JTextArea results;
 	public String operator;

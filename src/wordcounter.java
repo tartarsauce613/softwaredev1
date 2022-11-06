@@ -8,9 +8,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
-public class wordcounter {
+public class wordcounter { /** Scans text file and adds unique words to array while counting duplicates */
 	
-	public static void countwords (String file, Map<String, Integer> words) throws FileNotFoundException {
+	public static void countwords (String file, Map<String, Integer> words) throws FileNotFoundException { 
 		Scanner scnr = new Scanner (new File(file));
 		while (scnr.hasNext()) {
 			String word = scnr.next();

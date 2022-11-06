@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
-public class wordSorter {
-    public static HashMap<String, Integer>
+public class wordSorter { /** takes list of words and count of occurrences and sorts from largest to smallest */
+    public static HashMap<String, Integer> 
     sortByValue(HashMap<String, Integer> hashMap)
     {
         List<Map.Entry<String, Integer> > list = new LinkedList<Map.Entry<String, Integer> >(
